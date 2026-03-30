@@ -25,17 +25,20 @@
         <section>
             <h2>Get In Touch</h2>
             
-            <form method="post">
+            <form method="POST">
                 <label for="fname">Name</label>
-                <input type="text" id="fname" name="fname" placeholder="Name">
+                <input type="text" id="fname" name="fname" minlength="2" maxlength="30" placeholder="Name">
                 <br>
 
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="example@email.com">
+                <input type="email" id="email" name="email" placeholder="example@email.com">
                 <br>
 
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="0712345678" title="Please enter a valid numuber(eg. 0712345678 or +27712345678)" pattern="^(+27|0)[6-8][0-9]{8}$" required>
+
                 <label>Reason for message:</label>
-                <select name="reason">
+                <select name="reason" include_blank>
                     <option value=""></option>
                     <option value="software development">Software Development</option>
                     <option value="recruitment">Recruitment</option>
@@ -45,14 +48,12 @@
                 </select>
                 <br><br>
 
-                <label>Potential...?</label>
-                <input type="radio" id="business-partner" name="potential" value="potential" checked>
-                <label for="business-partner">Business Partner</label>
-                <input type="radio" id="customer" value="customer" name="potential">
-                <label for="customer">Customer</label>
-                <input type="radio" id="friend" value="friend" name="potential">
-                <label for="friend">Friend</label>
-                <br>
+                <label>Preferred Communication</label>
+                <input type="radio" id="choose-call" value="choose-call" name="chosen-contact" checked>
+                <label for="choose-call">Call</label>
+                <input type="radio" id="choose-email" value="choose-email" name="chosen-contact">
+                <label for="choose-email">Email</label>
+                <br><br>
 
                 <label for="txtmessage">Message</label>
                 <textarea id="txtmessage" name="txtmessage" rows="5" cols="50" placeholder="Enter your message here..."></textarea>
@@ -62,7 +63,7 @@
                 
                 
                 
-                <button type="submit">Send</button>
+                <button type="submit">Send Message</button>
             </form>
         </section>
     </main>
