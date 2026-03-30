@@ -1,4 +1,9 @@
-/* Basic styles with errors and omissions */
+/* Insert a universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: Arial;
