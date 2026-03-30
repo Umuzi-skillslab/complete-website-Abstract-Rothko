@@ -9,7 +9,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #000; /* change font colour */
+    background-color: #E8E8E8;
 }
 
 .header {
