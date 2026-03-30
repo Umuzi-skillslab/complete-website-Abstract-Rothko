@@ -13,14 +13,14 @@ body {
     background-color: #E8E8E8;
 }
 
-.header {
+header {
     background-color: #222;
     color: white;
     padding: 20px;
     /* Missing: proper alignment */
 }
 
-.header h1 {
+header h1 {
     margin: 0;
 }
 
