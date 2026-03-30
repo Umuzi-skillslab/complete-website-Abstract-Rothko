@@ -28,16 +28,40 @@
             <form method="post">
                 <label for="fname">Name</label>
                 <input type="text" id="fname" name="fname" placeholder="Name">
+                <br>
+
                 <label for="email">Email</label>
                 <input type="text" id="email" name="email" placeholder="example@email.com">
+                <br>
+
+                <label>Reason for message:</label>
+                <select name="reason">
+                    <option value=""></option>
+                    <option value="software development">Software Development</option>
+                    <option value="recruitment">Recruitment</option>
+                    <option value="consultation">Consultation</option>
+                    <option value="life advice(lol)">Life Advice(lol)</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+
+                <label>Potential...?</label>
+                <input type="radio" id="business-partner" name="potential" value="potential" checked>
+                <label for="business-partner">Business Partner</label>
+                <input type="radio" id="customer" value="customer" name="potential">
+                <label for="customer">Customer</label>
+                <input type="radio" id="friend" value="friend" name="potential">
+                <label for="friend">Friend</label>
+                <br>
+
                 <label for="txtmessage">Message</label>
-                <textarea id="txtmessage" name="txtmessage" placeholder="Message"></textarea>
-                
+                <textarea id="txtmessage" name="txtmessage" rows="5" cols="50" placeholder="Enter your message here..."></textarea>
+                <br>
+
                 <!-- Missing: labels, more input types, validation -->
-                <fieldset id="work-type">
-                    <input type="radio" value="potential customer" name="work-type" checked> Potential friend
-                    <input type="radio" value="potential friend" name="work-type">Potential Customer
-                </fieldset>
+                
+                
+                
                 <button type="submit">Send</button>
             </form>
         </section>
