@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: #222;
-    color: white;
+    color: #fff;
     padding: 20px;
     /* Missing: proper alignment */
 }
@@ -62,7 +62,7 @@ form input {
 
 footer {
     background-color: #222;
-    color: white;
+    color: #fff;
     padding: 20px;
     /* Wrong alignment */
     text-align: center;
