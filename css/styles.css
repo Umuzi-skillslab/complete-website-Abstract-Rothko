@@ -61,11 +61,11 @@ form input {
 /* Missing: Table styling */
 
 footer {
-    background-color: gray;
+    background-color: #222;
     color: white;
     padding: 20px;
     /* Wrong alignment */
-    text-align: left;
+    text-align: center;
 }
 
 /* Code quality issues: inconsistent spacing, poor naming, no comments */
