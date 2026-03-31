@@ -66,18 +66,21 @@ nav a:hover, p > a:hover {
 
 /* Hero section styling in index page*/
 .hero-section {
-    padding: 50px;
-    background-color: lightblue;
-    /* Poor colour contrast */
+    position: relative;
+    color: #544EF6;
 }
 
 .hero-section h2 {
     font-size: 36px;
+    position: absolute;
+    top: 65%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-section img {
     width: 100%;
-    /* Missing: alt text handled in HTML, but sizing issues here */
+    height: auto;
+    display: block;
 }
 
 /* Missing: Only using 2-3 selector types, need 5+ */
