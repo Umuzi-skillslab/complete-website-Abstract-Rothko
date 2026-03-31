@@ -64,10 +64,6 @@ nav a:hover, p > a:hover {
     text-decoration: underline 2px;
 }
 
-/* header h1 {
-    margin-right: auto;
-} */
-
 .hero {
     padding: 50px;
     background-color: lightblue;
