@@ -17,6 +17,7 @@ header {
     background-color: #222;
     color: #fff;
     padding: 20px;
+    display: flex;
     /* Missing: proper alignment */
 }
 
@@ -25,6 +26,25 @@ header h1 {
 }
 
 /* Navigation styling missing completely */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; 
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+header h1 {
+    margin-right: auto;
+}
 
 .hero {
     padding: 50px;
