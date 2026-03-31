@@ -67,14 +67,15 @@ nav a:hover, p > a:hover {
 /* Hero section styling in index page*/
 .hero-section {
     position: relative;
-    color: #544EF6;
+    color: oklab(26.19% 0.00194 -0.14347);
 }
 
 .hero-section h2 {
     font-size: 36px;
     position: absolute;
-    top: 65%;
-    background-color: rgba(0, 0, 0, 0.5);
+    top: 30%;
+    left: 20%;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .hero-section img {
