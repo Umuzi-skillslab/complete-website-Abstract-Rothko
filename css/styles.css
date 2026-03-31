@@ -64,17 +64,18 @@ nav a:hover, p > a:hover {
     text-decoration: underline 2px;
 }
 
-.hero {
+/* Hero section styling in index page*/
+.hero-section {
     padding: 50px;
     background-color: lightblue;
     /* Poor colour contrast */
 }
 
-.hero h2 {
+.hero-section h2 {
     font-size: 36px;
 }
 
-.hero img {
+.hero-section img {
     width: 100%;
     /* Missing: alt text handled in HTML, but sizing issues here */
 }
@@ -83,7 +84,7 @@ nav a:hover, p > a:hover {
 /* Missing: Pseudo-classes not used */
 /* Missing: Combination selectors not used */
 
-.intro {
+.index-about-section {
     padding: 30px;
 }
 
