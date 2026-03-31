@@ -44,14 +44,9 @@ nav {
 
 ul {
     list-style: none;
-    /* list-style-type: none; */
     display: flex;
     flex-flow: row wrap;
     text-align: center;
-}
-
-ul li {
-    color: #E8E8E8;
 }
 
 nav a {
