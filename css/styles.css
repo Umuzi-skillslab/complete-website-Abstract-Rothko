@@ -67,21 +67,54 @@ nav a:hover, p > a:hover {
 /* Hero section styling in index page*/
 .hero-section {
     position: relative;
-    color: oklab(26.19% 0.00194 -0.14347);
+    color: #1e8ef7;
 }
 
-.hero-section h2 {
+.hero-title {
     font-size: 36px;
     position: absolute;
     top: 30%;
     left: 20%;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero-title {
+    font-size: 36px;
+    text-shadow: 3px 3px 8px #000;
 }
 
 .hero-section img {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.hero-section {
+    text-align: center;
+}
+
+/* Button */
+.btn {
+    align-items: center;
+    padding: 14px 40px;
+    background-color: #E8E8E8;
+    border-radius: 24px;
+    border: solid 1px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #01051C;
+    transition: 0.1s;
+}
+
+.btn:hover {
+    background-color: #F6F9FE;
+    color: #1E8EF7;
+}
+
+.btn:active {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    background-color: #544EF6;
+    color: #F6F9FE;
+    border: 0;
 }
 
 /* Missing: Only using 2-3 selector types, need 5+ */
