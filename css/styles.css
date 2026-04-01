@@ -131,6 +131,12 @@ nav a:hover, p > a:hover {
     text-align: center;
 }
 
+/* Project Cards*/
+.project-cards article {
+    margin: 10px;
+    
+}
+
 /* Form styling incomplete */
 form input {
     display: block;
