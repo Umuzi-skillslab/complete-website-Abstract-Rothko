@@ -11,6 +11,7 @@ body {
     padding: 0;
     color: #000; /* change font colour */
     background-color: #E8E8E8;
+    font-size: 16px;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
     padding: 20px;
     display: flex;
     flex-flow: row wrap;
+    font-size: 1.2em;
     /* Missing: proper alignment */
 }
 
@@ -30,7 +32,6 @@ header {
 
 h1 {
     margin-right: auto;
-    font-size: 18px;
     color: #E8E8E8;
 }
 
@@ -76,14 +77,13 @@ nav a:hover, p > a:hover {
 }
 
 .hero-title {
-    font-size: 36px;
+    font-size: 2em;
     position: absolute;
     top: 30%;
     left: 20%;
 }
 
 .hero-title {
-    font-size: 36px;
     text-shadow: 3px 3px 8px #000;
 }
 
