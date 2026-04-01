@@ -77,7 +77,7 @@ nav a:hover, p > a:hover {
 }
 
 .hero-title {
-    font-size: 2em;
+    font-size: 3.5em;
     position: absolute;
     top: 30%;
     left: 20%;
@@ -132,9 +132,38 @@ nav a:hover, p > a:hover {
 }
 
 /* Project Cards*/
-.project-cards article {
+.project-cards {
+    display: grid;
+}
+
+.project-cards .card {
+    display: flex;
     margin: 10px;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    width: 600px;
+    grid-column: 2;
+    border-radius: 10px;
+}
+
+.project-cards img {
+    border-radius: 10px;
+}
+
+.card div h2 {
+    padding: 5px;
+    text-align: center;
+    font-size: 2em;
+    color: #031058;
+}
+
+.card div p {
+    display: flex;
+    padding: 15px;
+}
+
+.project-cards .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
 }
 
 /* Form styling incomplete */
