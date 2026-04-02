@@ -213,10 +213,9 @@ input:focus, select:focus {
     outline: none;
 }
 
-/* form input {
-    display: block;
-    margin: 10px 0;
-} */
+form {
+    margin-top: 15px;
+}
 
 /* Missing: Box model demonstration (margin, padding, border) */
 /* Missing: Block vs inline elements styling */
