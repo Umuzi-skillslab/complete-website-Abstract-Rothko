@@ -191,8 +191,8 @@ nav a:hover, p > a:hover {
     margin-bottom: 20px;
 }
 
-label {
-    display: flex;
+label, legend {
+    display: inline-block;
     margin-bottom: 8px;
     font-weight: bold;
     color: #031058;
@@ -211,6 +211,10 @@ input[type="text"], input[type="email"], input[type="tel"], textarea, select {
 
 input:focus, select:focus {
     outline: none;
+}
+
+fieldset {
+    border: none;
 }
 
 form {
