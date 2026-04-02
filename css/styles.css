@@ -146,12 +146,18 @@ nav a:hover, p > a:hover {
     border-radius: 10px;
 }
 
+.project-cards div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .project-cards img {
     border-radius: 10px;
 }
 
 .card div h2 {
-    padding: 5px;
     text-align: center;
     font-size: 2em;
     color: #031058;
