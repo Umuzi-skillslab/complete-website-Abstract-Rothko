@@ -236,7 +236,7 @@ form {
     justify-content: center;
     flex-direction: column;
     border-radius: 2.5px;
-    background-color: #cccbd4;
+    background-color: #CCCBD4;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.8);
 }
 
@@ -244,6 +244,11 @@ table {
     max-width: 800px;
     width: 100%;
     border-collapse: collapse;
+}
+
+.about-main h2, .about-main p, h3 {
+    text-align: center;
+    padding: 10px;
 }
 
 th, td {
@@ -272,11 +277,6 @@ tr:hover {
     margin-right: auto;
     width: 50%;
 }
-
-/* Missing: Box model demonstration (margin, padding, border) */
-/* Missing: Block vs inline elements styling */
-/* Missing: Text and colour styling variety */
-/* Missing: Table styling */
 
 /* Footer section */
 footer {
