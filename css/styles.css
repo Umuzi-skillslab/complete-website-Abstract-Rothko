@@ -217,6 +217,13 @@ form {
     margin-top: 15px;
 }
 
+.form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 /* Missing: Box model demonstration (margin, padding, border) */
 /* Missing: Block vs inline elements styling */
 /* Missing: Text and colour styling variety */
