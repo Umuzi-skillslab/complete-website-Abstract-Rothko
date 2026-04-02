@@ -139,7 +139,7 @@ nav a:hover, p > a:hover {
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     transition: 0.3s;
-    width: 600px;
+    width: 800px;
     grid-column: 2;
     border-radius: 10px;
 }
@@ -254,7 +254,7 @@ table {
 th, td {
     padding: 5px;
     text-align: left;
-    border-bottom: 1px solid #01051C;
+    border-bottom: 1px solid #06135C5D;
 }
 
 th {
