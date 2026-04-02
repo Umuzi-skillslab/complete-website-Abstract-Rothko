@@ -228,6 +228,32 @@ form {
     flex-direction: column;
 }
 
+
+/* Table Styling */
+table {
+    width: 700px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #0b069e;
+}
+
+th {
+    background-color: #F2F2F2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+tr:hover {
+    background-color: #F1F1F1;
+}
+
 /* Missing: Box model demonstration (margin, padding, border) */
 /* Missing: Block vs inline elements styling */
 /* Missing: Text and colour styling variety */
