@@ -34,6 +34,10 @@ h1 {
     color: #E8E8E8;
 }
 
+h2 {
+    font-size: 2em;
+}
+
 /* Navigation styling missing completely */
 nav {
     display: flex;
@@ -60,7 +64,7 @@ nav a {
 }
 
 nav a:hover, p a:hover {
-    color: #544EF6;
+    color: #8A86FF;
     text-decoration: underline 2px;
 }
 
@@ -92,10 +96,10 @@ p a {
 }
 
 .hero-title {
-    font-size: 3.5em;
+    font-size: 3em;
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 10%;
     text-shadow: 3px 3px 8px #000;
 }
 
@@ -107,7 +111,6 @@ p a {
 
 /* Button */
 .btn {
-    align-items: center;
     padding: 14px 40px;
     background-color: #E8E8E8;
     border-radius: 24px;
@@ -120,7 +123,7 @@ p a {
 
 .btn:hover {
     background-color: #F6F9FE;
-    color: #1E8EF7;
+    color: #1060B8;
 }
 
 .btn:active {
@@ -137,7 +140,7 @@ p a {
 }
 
 /* Project Cards*/
-.project-cards, .about-main {
+.project-cards {
     display: grid;
 }
 
@@ -163,15 +166,14 @@ p a {
     border-radius: 10px;
 }
 
-.card div h2 {
-    text-align: center;
-    font-size: 1.5em;
+.card div {
     color: #031058;
+    padding: 20px;
 }
 
-.card div p {
-    display: flex;
-    padding: 15px;
+.card p {
+    margin: 20px;
+    text-align: center;
 }
 
 .project-cards .card:hover {
@@ -216,6 +218,7 @@ input[type="text"], input[type="email"], input[type="tel"], textarea, select {
 
 input:focus, select:focus, textarea:focus {
     outline: none;
+    border: 2px solid #544EF6;
 }
 
 fieldset {
