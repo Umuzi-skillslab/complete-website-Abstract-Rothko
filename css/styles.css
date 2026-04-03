@@ -1,8 +1,9 @@
-/* Insert a universal selector */
+/* Styling that applies on four pages */
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -58,15 +59,31 @@ nav a {
     transition: 0.3s;
 }
 
-nav a:hover, p > a:hover {
+nav a:hover, p a:hover {
     color: #544EF6;
     text-decoration: underline 2px;
 }
+
+/* Footer section */
+footer {
+    background-color: #01051C; /* Colour changed */
+    color: #E8E8E8;
+    padding: 20px;
+    font-style: italic;
+    text-align: center; /* Fixed alignment*/
+}
+
+p a {
+    text-decoration: none;
+    color:#E8E8E8;
+}
+
 
 /* Hero section styling in index page*/
 .hero-section {
     position: relative;
     color: #1e8ef7;
+    text-align: center;
 }
 
 #highlight {
@@ -79,9 +96,6 @@ nav a:hover, p > a:hover {
     position: absolute;
     top: 30%;
     left: 20%;
-}
-
-.hero-title {
     text-shadow: 3px 3px 8px #000;
 }
 
@@ -89,10 +103,6 @@ nav a:hover, p > a:hover {
     width: 100%;
     height: auto;
     display: block;
-}
-
-.hero-section {
-    text-align: center;
 }
 
 /* Button */
@@ -120,11 +130,8 @@ nav a:hover, p > a:hover {
     border: 0;
 }
 
-/* Missing: Only using 2-3 selector types, need 5+ */
-/* Missing: Pseudo-classes not used */
-/* Missing: Combination selectors not used */
-
-.index-about-section {
+/* Paragraph under the Hero section */
+.index-about-section { 
     padding: 30px;
     text-align: center;
 }
@@ -139,7 +146,8 @@ nav a:hover, p > a:hover {
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     transition: 0.3s;
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
     grid-column: 2;
     border-radius: 10px;
 }
@@ -201,13 +209,12 @@ input[type="text"], input[type="email"], input[type="tel"], textarea, select {
     border-radius: 4px;
     border: 1px solid #E8E8E8;
     padding: 12px;
-    box-sizing: border-box;
     font-weight: bold;
     color: #031058;
     transition: 0.3s;
 }
 
-input:focus, select:focus {
+input:focus, select:focus, textarea:focus {
     outline: none;
 }
 
@@ -276,18 +283,4 @@ tr:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-
-/* Footer section */
-footer {
-    background-color: #01051C; /* Colour changed */
-    color: #E8E8E8;
-    padding: 20px;
-    font-style: italic;
-    text-align: center; /* Fixed alignment*/
-}
-
-p > a {
-    text-decoration: none;
-    color:#E8E8E8;
 }
