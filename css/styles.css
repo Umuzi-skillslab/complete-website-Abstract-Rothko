@@ -1,0 +1,289 @@
+/* Styling that applies on four pages */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #01051C; /* change font colour */
+    background-color: #E8E8E8;
+    font-size: 16px;
+}
+
+header {
+    background-color: #01051C;
+    color: #E8E8E8;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1.2em;
+}
+
+header {
+    align-items: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-right: auto;
+    color: #E8E8E8;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+/* Navigation styling missing completely */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: flex-end; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    font-weight: bold;
+    color: #E8E8E8;
+    transition: 0.3s;
+}
+
+nav a:hover, p a:hover {
+    color: #8A86FF;
+    text-decoration: underline 2px;
+}
+
+/* Footer section */
+footer {
+    background-color: #01051C; /* Colour changed */
+    color: #E8E8E8;
+    padding: 20px;
+    font-style: italic;
+    text-align: center; /* Fixed alignment*/
+}
+
+p a {
+    text-decoration: none;
+    color:#E8E8E8;
+}
+
+
+/* Hero section styling in index page*/
+.hero-section {
+    position: relative;
+    color: #1e8ef7;
+    text-align: center;
+}
+
+#highlight {
+    color: #0b069e;
+    text-shadow: 2px 2px 0.5px rgba(250, 250, 250,  0.5);
+}
+
+.hero-title {
+    font-size: 3em;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-shadow: 3px 3px 8px #000;
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Button */
+.btn {
+    padding: 14px 40px;
+    background-color: #E8E8E8;
+    border-radius: 24px;
+    border: solid 1px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #01051C;
+    transition: 0.1s;
+}
+
+.btn:hover {
+    background-color: #F6F9FE;
+    color: #1060B8;
+}
+
+.btn:active {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    background-color: #544EF6;
+    color: #F6F9FE;
+    border: 0;
+}
+
+/* Paragraph under the Hero section */
+.index-about-section { 
+    padding: 30px;
+    text-align: center;
+}
+
+/* Project Cards*/
+.project-cards {
+    display: grid;
+}
+
+.project-cards .card {
+    display: flex;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    max-width: 800px;
+    width: 100%;
+    grid-column: 2;
+    border-radius: 10px;
+}
+
+.project-cards div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project-cards img {
+    border-radius: 10px;
+}
+
+.card div {
+    color: #031058;
+    padding: 20px;
+}
+
+.card p {
+    margin: 20px;
+    text-align: center;
+}
+
+.project-cards .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* Form styling incomplete */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #9a97f3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.form-container h2 {
+    color: #031058;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label, legend {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #031058;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+    width: 100%; 
+    border-radius: 4px;
+    border: 1px solid #E8E8E8;
+    padding: 12px;
+    font-weight: bold;
+    color: #031058;
+    transition: 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border: 2px solid #544EF6;
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    margin-top: 15px;
+}
+
+.form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* Table Styling */
+.about-main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2.5px;
+    background-color: #CCCBD4;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+table {
+    max-width: 800px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.about-main h2, .about-main p, h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #06135C5D;
+}
+
+th {
+    background-color: #01051C;
+    color: #E8E8E8;
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    background-color: #b5b3f8;
+}
+
+tr:hover {
+    background-color: #F1F1F1;
+}
+
+.about-img-section img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
